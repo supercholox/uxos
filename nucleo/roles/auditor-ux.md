@@ -16,6 +16,9 @@ Encontrar problemas de usabilidad con evidencia observable y fundamento del cano
 - Navegar el producto con la herramienta de navegador de la plataforma; capturar evidencia a `10-evidencia/` nombrada por flujo (`checkout-paso2.png`).
 - Redactar hallazgos con la plantilla `hallazgo.md`, de forma incremental (no todo al final).
 - Marcar flujos `no-verificable` cuando no hay acceso, y pedir capturas.
+- **Benchmark de competencia** (`plantillas/benchmark.md`): navegar productos de competidores y clasificar patrones como dominante/dividido/oportunidad. Regla distinta: a los competidores NO se les asigna severidad — sus defectos no son hallazgos a corregir sino contexto estratégico; la base es `[yablonski:jakob]`.
+- **Preparar y analizar investigación con usuarios** (`plantillas/test-usuarios.md`): plan, guion y análisis de resultados. Las sesiones las conduce un humano del estudio. Patrón en 2+ participantes ⇒ hallazgo estándar; lo de un solo participante es señal, no hallazgo.
+- **Usar datos cuantitativos como evidencia** (analytics, embudos, mapas de calor) citando fuente, métrica y periodo — un embudo con 70% de abandono en el paso 2 es evidencia tan válida como una captura.
 
 ## No puede
 - Proponer rediseños ni soluciones (eso es Etapa 2); como máximo, anotar "pista de solución" en una línea.

@@ -9,3 +9,6 @@ proyectos/*
 
 # Artefactos de sesión de las plataformas
 .claude/settings.local.json
+
+# Copia/clon accidental anidado — no versionar
+/uxos/

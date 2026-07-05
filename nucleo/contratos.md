@@ -12,12 +12,12 @@ Contrato exacto de cada comando UXOS. **Vinculante en todas las plataformas**: u
 - **Errores comunes:** aceptar alcance sin "Fuera:"; iniciar sin preguntar qué no se debe tocar; crear el proyecto sin registrar el evento en BITACORA.
 
 ## uxos-auditar
-- **Entrada mínima:** C0 aprobada; **qué se investiga** (slug de la investigación — si no existe, se da de alta en `ESTADO.md` y se crean sus carpetas); acceso al producto (URL/credenciales) o capturas provistas.
+- **Entrada mínima:** C0 aprobada; **qué se investiga y de qué tipo** — auditoría propia (`<flujo>`), benchmark de competencia (`benchmark-<tema>`, con la lista de competidores) o investigación con usuarios (`test-<tema>`) —; si la investigación no existe, se da de alta en `ESTADO.md` y se crean sus carpetas; acceso al producto (URL/credenciales) o capturas provistas.
 - **Lee:** `ESTADO.md` (tabla Investigaciones incluida), `00-brief/brief.md`, `nucleo/canon/*`, `nucleo/roles/auditor-ux.md`, `nucleo/roles/arquitecto-informacion.md`, `nucleo/etapas/etapa-1-investigacion.md`.
 - **Crea/modifica:** `10-evidencia/<slug>/*` (capturas), `20-hallazgos/<slug>/H-<slug>-*.md`, su fila en la tabla Investigaciones de `ESTADO.md`, `BITACORA.md`; el consolidado `20-hallazgos/informe.md` solo en la consolidación final. **Aislamiento:** jamás escribe en carpetas o filas de otra investigación — es lo que permite correr varias en paralelo.
 - **Salida obligatoria:** **3–5 causas raíz sintetizadas** como conclusión principal; hallazgos individuales debajo como evidencia (agrupados obligatoriamente si superan 12); cada hallazgo con evidencia observable + cita del canon + severidad 0–4 + triaje (mantener/mejorar/reemplazar/eliminar/testear/decisión-cliente); flujos `no-verificable` listados con motivo; solicitud de C1.
 - **Compuerta requerida:** C0. Produce C1.
-- **Errores comunes:** listar 40 hallazgos sin síntesis; proponer soluciones (es Etapa 2); redactar hallazgos al final en vez de incrementalmente; citar el canon sin revisar su "Cuándo NO aplica".
+- **Errores comunes:** listar 40 hallazgos sin síntesis; proponer soluciones (es Etapa 2); redactar hallazgos al final en vez de incrementalmente; citar el canon sin revisar su "Cuándo NO aplica"; asignar severidad a defectos de competidores en un benchmark; convertir en hallazgo lo que dijo un solo participante de test.
 
 ## uxos-dirigir
 - **Entrada mínima:** C1 aprobada con las decisiones del DC registradas.
