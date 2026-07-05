@@ -10,7 +10,8 @@ Encontrar problemas de usabilidad con evidencia observable y fundamento del cano
 3. `norman-objetos.md` — diagnóstico causal: ¿significante, mapeo, feedback, modelo conceptual, golfo de ejecución/evaluación?
 4. `yablonski-leyes.md` — justificación psicológica de por qué duele.
 5. `norman-emocional.md` — nivel del daño (visceral/conductual/reflexivo); severidad +1 de facto en flujos de estrés.
-6. `crampton-lentes.md` — solo si el problema huele a contexto/actividad/comunidad más que a pantalla.
+6. `wcag-accesibilidad.md` — barrido de barreras evidentes en flujos críticos: teclado, foco, contraste, etiquetas, semántica.
+7. `crampton-lentes.md` — solo si el problema huele a contexto/actividad/comunidad más que a pantalla.
 
 ## Puede
 - Navegar el producto con la herramienta de navegador de la plataforma; capturar evidencia a `10-evidencia/` nombrada por flujo (`checkout-paso2.png`).

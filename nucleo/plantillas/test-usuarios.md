@@ -6,7 +6,7 @@ estado: borrador
 autor-rol: auditor-ux
 fecha: <aaaa-mm-dd>
 investigacion: test-<tema>
-metodo: test-usabilidad | test-pasillo | card-sorting-abierto | card-sorting-cerrado | tree-testing
+metodo: test-usabilidad | test-pasillo | card-sorting-abierto | card-sorting-cerrado | tree-testing | entrevista | encuesta
 canon: [nielsen:test-5-usuarios, krug:test-pasillo, rosenfeld:card-sorting]
 ---
 
@@ -15,7 +15,8 @@ canon: [nielsen:test-5-usuarios, krug:test-pasillo, rosenfeld:card-sorting]
 <!-- UXOS prepara el plan, el guion y el análisis; las sesiones las conduce un humano del estudio. Los resultados registrados aquí son evidencia de primera clase para hallazgos (regla 1). -->
 
 ## Plan
-- **Pregunta de investigación:** <!-- qué decisión va a informar este test; si no informa ninguna, no se hace -->
+- **Pregunta de investigación:** <!-- qué decisión va a informar este estudio; si no informa ninguna, no se hace -->
+  <!-- Métodos conductuales (test, card sorting, tree testing) responden QUÉ hacen los usuarios; métodos actitudinales (entrevista, encuesta) responden QUÉ CREEN y POR QUÉ. Lo que la gente dice y lo que hace difieren: una entrevista nunca sustituye a un test para validar usabilidad, y viceversa. -->
 - **Método y por qué:** <!-- [nielsen:test-5-usuarios]: ~5 participantes revelan la mayoría de los problemas; iterar > muestras grandes -->
 - **Participantes:** <!-- perfil (de la audiencia del brief), cuántos, cómo se reclutan -->
 - **Tareas:** <!-- 3–5 tareas realistas, formuladas como objetivos ("compra un regalo de menos de S/50"), nunca como instrucciones de clics -->
