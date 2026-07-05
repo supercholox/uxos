@@ -1,0 +1,11 @@
+# Libros con copyright — NUNCA publicar en un repo (ni público ni privado compartido).
+# El canon destilado en nucleo/canon/ es autosuficiente para operar.
+biblioteca/
+
+# Trabajo de clientes — confidencial. El repo publica el sistema, no los proyectos.
+# PORTAFOLIO.md contiene nombres de clientes: también queda fuera.
+proyectos/*
+!proyectos/README.md
+
+# Artefactos de sesión de las plataformas
+.claude/settings.local.json
